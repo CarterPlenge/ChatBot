@@ -17,7 +17,7 @@ I wanted to learn more about models, hugging face, and how to use them. I though
 ## Models
 ### Text Generation
 #### Current
-(OpenHermes 2.5 - Mistral 7B)[https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B]
+[OpenHermes 2.5 - Mistral 7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)
 #### Others tried
 None so far. Though i might look for a different one as it takes ~8 seconds per prompt and i would like it to be faster. 
 ### Audio to text
