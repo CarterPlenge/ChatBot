@@ -15,14 +15,19 @@ I wanted to learn more about models, hugging face, and how to use them. I though
     - Plug it into a Discord bot because it would be funny. 
 
 ## Models
+
 ### Text Generation
 #### Current
 [OpenHermes 2.5 - Mistral 7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)
 #### Others tried
-None so far. Though I might look for a different one, as it takes ~8 seconds per prompt, and I would like it to be faster. 
+None
+
 ### Audio-to-text
 #### Current
+[Whisper large v3](https://huggingface.co/Systran/faster-whisper-large-v3)
 #### Others tried
+None
+
 ### Text-to-Speech
 #### Current
 #### Others tried

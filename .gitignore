@@ -1,3 +1,5 @@
 env/
 __pycache__/
 *.pyc
+notes.md
+notes.pdf

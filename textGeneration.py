@@ -1,6 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-import time
 
 class GenerativeModel:
     def __init__(self, personality:str, maxTokens:int=50) -> None: 
