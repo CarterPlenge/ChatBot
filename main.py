@@ -1,9 +1,10 @@
 from textGeneration import GenerativeModel
 from voiceReq import transcribe, record_voice
+from textToSpeech import TTS
 import os
 
-wizard_bot = GenerativeModel("you are a wize old wizard.", 50)
-
+wizard_bot = GenerativeModel("You are a pirate.", 50)
+voice = TTS()
 
 
 while True:
@@ -20,3 +21,4 @@ while True:
         break
     response = wizard_bot.prompt(msg)
     print("The Wizard says:", response)
+    voice.say(response)
